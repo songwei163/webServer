@@ -87,6 +87,30 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/main.cpp">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Condition.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/MutexLock.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/common.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/myUtil.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/myUtil.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/noncopyable.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>

@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/myUtil.o: src/myUtil.cc.o
+
+.PHONY : src/myUtil.o
+
+# target to build an object file
+src/myUtil.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.o
+.PHONY : src/myUtil.cc.o
+
+src/myUtil.i: src/myUtil.cc.i
+
+.PHONY : src/myUtil.i
+
+# target to preprocess a source file
+src/myUtil.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.i
+.PHONY : src/myUtil.cc.i
+
+src/myUtil.s: src/myUtil.cc.s
+
+.PHONY : src/myUtil.s
+
+# target to generate assembly for a file
+src/myUtil.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.s
+.PHONY : src/myUtil.cc.s
+
+src/net/EventLoop.o: src/net/EventLoop.cc.o
+
+.PHONY : src/net/EventLoop.o
+
+# target to build an object file
+src/net/EventLoop.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
+.PHONY : src/net/EventLoop.cc.o
+
+src/net/EventLoop.i: src/net/EventLoop.cc.i
+
+.PHONY : src/net/EventLoop.i
+
+# target to preprocess a source file
+src/net/EventLoop.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.i
+.PHONY : src/net/EventLoop.cc.i
+
+src/net/EventLoop.s: src/net/EventLoop.cc.s
+
+.PHONY : src/net/EventLoop.s
+
+# target to generate assembly for a file
+src/net/EventLoop.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.s
+.PHONY : src/net/EventLoop.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/myUtil.o"
+	@echo "... src/myUtil.i"
+	@echo "... src/myUtil.s"
+	@echo "... src/net/EventLoop.o"
+	@echo "... src/net/EventLoop.i"
+	@echo "... src/net/EventLoop.s"
 .PHONY : help
 
 
