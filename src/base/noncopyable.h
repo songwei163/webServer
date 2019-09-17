@@ -2,8 +2,8 @@
 // Created by S on 2019/9/17.
 //
 
-#ifndef WEBSERVER_SRC_NONCOPYABLE_H_
-#define WEBSERVER_SRC_NONCOPYABLE_H_
+#ifndef WEBSERVER_SRC_BASE_NONCOPYABLE_H_
+#define WEBSERVER_SRC_BASE_NONCOPYABLE_H_
 
 class noncopyable {
  public:
@@ -15,4 +15,4 @@ class noncopyable {
   ~noncopyable() = default;
 };
 
-#endif //WEBSERVER_SRC_NONCOPYABLE_H_
+#endif //WEBSERVER_SRC_BASE_NONCOPYABLE_H_

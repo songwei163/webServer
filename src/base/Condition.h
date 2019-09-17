@@ -10,6 +10,7 @@
 #include <cerrno>
 
 class Condition : noncopyable {
+ public:
   explicit Condition(MutexLock &_mutex) : mutex(_mutex) {
     pthread_cond_init(&cond, nullptr);
   }

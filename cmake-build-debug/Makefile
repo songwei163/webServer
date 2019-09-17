@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/CountDownLatch.o: src/CountDownLatch.cc.o
+
+.PHONY : src/CountDownLatch.o
+
+# target to build an object file
+src/CountDownLatch.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.o
+.PHONY : src/CountDownLatch.cc.o
+
+src/CountDownLatch.i: src/CountDownLatch.cc.i
+
+.PHONY : src/CountDownLatch.i
+
+# target to preprocess a source file
+src/CountDownLatch.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.i
+.PHONY : src/CountDownLatch.cc.i
+
+src/CountDownLatch.s: src/CountDownLatch.cc.s
+
+.PHONY : src/CountDownLatch.s
+
+# target to generate assembly for a file
+src/CountDownLatch.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.s
+.PHONY : src/CountDownLatch.cc.s
+
+src/base/Thread.o: src/base/Thread.cc.o
+
+.PHONY : src/base/Thread.o
+
+# target to build an object file
+src/base/Thread.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.o
+.PHONY : src/base/Thread.cc.o
+
+src/base/Thread.i: src/base/Thread.cc.i
+
+.PHONY : src/base/Thread.i
+
+# target to preprocess a source file
+src/base/Thread.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.i
+.PHONY : src/base/Thread.cc.i
+
+src/base/Thread.s: src/base/Thread.cc.s
+
+.PHONY : src/base/Thread.s
+
+# target to generate assembly for a file
+src/base/Thread.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.s
+.PHONY : src/base/Thread.cc.s
+
 src/myUtil.o: src/myUtil.cc.o
 
 .PHONY : src/myUtil.o
@@ -216,6 +270,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/CountDownLatch.o"
+	@echo "... src/CountDownLatch.i"
+	@echo "... src/CountDownLatch.s"
+	@echo "... src/base/Thread.o"
+	@echo "... src/base/Thread.i"
+	@echo "... src/base/Thread.s"
 	@echo "... src/myUtil.o"
 	@echo "... src/myUtil.i"
 	@echo "... src/myUtil.s"

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/webServer.dir/main.cpp.o"
   "CMakeFiles/webServer.dir/src/myUtil.cc.o"
   "CMakeFiles/webServer.dir/src/net/EventLoop.cc.o"
+  "CMakeFiles/webServer.dir/src/base/Thread.cc.o"
+  "CMakeFiles/webServer.dir/src/CountDownLatch.cc.o"
   "webServer.pdb"
   "webServer"
 )

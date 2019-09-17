@@ -129,11 +129,61 @@ CMakeFiles/webServer.dir/src/net/EventLoop.cc.o.provides: CMakeFiles/webServer.d
 CMakeFiles/webServer.dir/src/net/EventLoop.cc.o.provides.build: CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
 
 
+CMakeFiles/webServer.dir/src/base/Thread.cc.o: CMakeFiles/webServer.dir/flags.make
+CMakeFiles/webServer.dir/src/base/Thread.cc.o: ../src/base/Thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webServer.dir/src/base/Thread.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/Thread.cc.o -c /tmp/tmp.ciuGHP4ieV/src/base/Thread.cc
+
+CMakeFiles/webServer.dir/src/base/Thread.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/Thread.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.ciuGHP4ieV/src/base/Thread.cc > CMakeFiles/webServer.dir/src/base/Thread.cc.i
+
+CMakeFiles/webServer.dir/src/base/Thread.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/Thread.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.ciuGHP4ieV/src/base/Thread.cc -o CMakeFiles/webServer.dir/src/base/Thread.cc.s
+
+CMakeFiles/webServer.dir/src/base/Thread.cc.o.requires:
+
+.PHONY : CMakeFiles/webServer.dir/src/base/Thread.cc.o.requires
+
+CMakeFiles/webServer.dir/src/base/Thread.cc.o.provides: CMakeFiles/webServer.dir/src/base/Thread.cc.o.requires
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.o.provides.build
+.PHONY : CMakeFiles/webServer.dir/src/base/Thread.cc.o.provides
+
+CMakeFiles/webServer.dir/src/base/Thread.cc.o.provides.build: CMakeFiles/webServer.dir/src/base/Thread.cc.o
+
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.o: CMakeFiles/webServer.dir/flags.make
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.o: ../src/CountDownLatch.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webServer.dir/src/CountDownLatch.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/CountDownLatch.cc.o -c /tmp/tmp.ciuGHP4ieV/src/CountDownLatch.cc
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/CountDownLatch.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.ciuGHP4ieV/src/CountDownLatch.cc > CMakeFiles/webServer.dir/src/CountDownLatch.cc.i
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/CountDownLatch.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.ciuGHP4ieV/src/CountDownLatch.cc -o CMakeFiles/webServer.dir/src/CountDownLatch.cc.s
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.requires:
+
+.PHONY : CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.requires
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.provides: CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.requires
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.provides.build
+.PHONY : CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.provides
+
+CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.provides.build: CMakeFiles/webServer.dir/src/CountDownLatch.cc.o
+
+
 # Object files for target webServer
 webServer_OBJECTS = \
 "CMakeFiles/webServer.dir/main.cpp.o" \
 "CMakeFiles/webServer.dir/src/myUtil.cc.o" \
-"CMakeFiles/webServer.dir/src/net/EventLoop.cc.o"
+"CMakeFiles/webServer.dir/src/net/EventLoop.cc.o" \
+"CMakeFiles/webServer.dir/src/base/Thread.cc.o" \
+"CMakeFiles/webServer.dir/src/CountDownLatch.cc.o"
 
 # External object files for target webServer
 webServer_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ webServer_EXTERNAL_OBJECTS =
 webServer: CMakeFiles/webServer.dir/main.cpp.o
 webServer: CMakeFiles/webServer.dir/src/myUtil.cc.o
 webServer: CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
+webServer: CMakeFiles/webServer.dir/src/base/Thread.cc.o
+webServer: CMakeFiles/webServer.dir/src/CountDownLatch.cc.o
 webServer: CMakeFiles/webServer.dir/build.make
 webServer: CMakeFiles/webServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable webServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable webServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/webServer.dir/build: webServer
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/main.cpp.o.requires
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/myUtil.cc.o.requires
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/net/EventLoop.cc.o.requires
+CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/Thread.cc.o.requires
+CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/CountDownLatch.cc.o.requires
 
 .PHONY : CMakeFiles/webServer.dir/requires
 

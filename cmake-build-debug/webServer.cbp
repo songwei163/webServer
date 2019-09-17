@@ -44,6 +44,7 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/tmp/tmp.ciuGHP4ieV/src/base" />
             <Add directory="/usr/include" />
             <Add directory="/usr/include/c++/5" />
             <Add directory="/usr/include/c++/5/backward" />
@@ -67,6 +68,7 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/tmp/tmp.ciuGHP4ieV/src/base" />
             <Add directory="/usr/include" />
             <Add directory="/usr/include/c++/5" />
             <Add directory="/usr/include/c++/5/backward" />
@@ -87,10 +89,28 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/main.cpp">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/CountDownLatch.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/CountDownLatch.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Condition.h">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CurrentThread.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/MutexLock.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Thread.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Thread.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/noncopyable.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/common.h">
@@ -106,9 +126,6 @@
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.h">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/noncopyable.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/CMakeLists.txt">
