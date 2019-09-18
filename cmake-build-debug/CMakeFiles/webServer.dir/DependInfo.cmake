@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/tmp/tmp.ciuGHP4ieV/src/base/CountDownLatch.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/base/FileUtil.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/FileUtil.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/base/LogFile.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/LogFile.cc.o"
+  "/tmp/tmp.ciuGHP4ieV/src/base/LogStream.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/LogStream.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/base/Thread.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/Thread.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/myUtil.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/myUtil.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/net/EventLoop.cc.o"

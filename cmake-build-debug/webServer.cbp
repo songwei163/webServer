@@ -119,6 +119,12 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogFile.h">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogStream.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogStream.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/MutexLock.h">
          <Option target="webServer"/>
       </Unit>

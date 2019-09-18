@@ -14,7 +14,9 @@ LogFile::LogFile(const std::string &basename, int flushEveryN)
   file_.reset(new AppendFile(basename));
 }
 
-LogFile::~LogFile() {}
+LogFile::~LogFile() {
+
+}
 
 void LogFile::append(const char *logline, int len) {
   MutexLockGuard lock(*mutex_);

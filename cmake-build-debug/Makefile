@@ -258,6 +258,33 @@ src/base/LogFile.cc.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.s
 .PHONY : src/base/LogFile.cc.s
 
+src/base/LogStream.o: src/base/LogStream.cc.o
+
+.PHONY : src/base/LogStream.o
+
+# target to build an object file
+src/base/LogStream.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.o
+.PHONY : src/base/LogStream.cc.o
+
+src/base/LogStream.i: src/base/LogStream.cc.i
+
+.PHONY : src/base/LogStream.i
+
+# target to preprocess a source file
+src/base/LogStream.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.i
+.PHONY : src/base/LogStream.cc.i
+
+src/base/LogStream.s: src/base/LogStream.cc.s
+
+.PHONY : src/base/LogStream.s
+
+# target to generate assembly for a file
+src/base/LogStream.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.s
+.PHONY : src/base/LogStream.cc.s
+
 src/base/Thread.o: src/base/Thread.cc.o
 
 .PHONY : src/base/Thread.o
@@ -363,6 +390,9 @@ help:
 	@echo "... src/base/LogFile.o"
 	@echo "... src/base/LogFile.i"
 	@echo "... src/base/LogFile.s"
+	@echo "... src/base/LogStream.o"
+	@echo "... src/base/LogStream.i"
+	@echo "... src/base/LogStream.s"
 	@echo "... src/base/Thread.o"
 	@echo "... src/base/Thread.i"
 	@echo "... src/base/Thread.s"

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/webServer.dir/src/base/FileUtil.cc.o"
   "CMakeFiles/webServer.dir/src/base/LogFile.cc.o"
   "CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o"
+  "CMakeFiles/webServer.dir/src/base/LogStream.cc.o"
   "webServer.pdb"
   "webServer"
 )
