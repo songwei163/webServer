@@ -7,8 +7,6 @@
 
 #include "noncopyable.h"
 #include <pthread.h>
-#include <cassert>
-#include <cstdio>
 
 class MutexLock : noncopyable {
  public:

@@ -150,32 +150,113 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/CountDownLatch.o: src/CountDownLatch.cc.o
+src/base/AsyncLogging.o: src/base/AsyncLogging.cc.o
 
-.PHONY : src/CountDownLatch.o
+.PHONY : src/base/AsyncLogging.o
 
 # target to build an object file
-src/CountDownLatch.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.o
-.PHONY : src/CountDownLatch.cc.o
+src/base/AsyncLogging.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o
+.PHONY : src/base/AsyncLogging.cc.o
 
-src/CountDownLatch.i: src/CountDownLatch.cc.i
+src/base/AsyncLogging.i: src/base/AsyncLogging.cc.i
 
-.PHONY : src/CountDownLatch.i
+.PHONY : src/base/AsyncLogging.i
 
 # target to preprocess a source file
-src/CountDownLatch.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.i
-.PHONY : src/CountDownLatch.cc.i
+src/base/AsyncLogging.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.i
+.PHONY : src/base/AsyncLogging.cc.i
 
-src/CountDownLatch.s: src/CountDownLatch.cc.s
+src/base/AsyncLogging.s: src/base/AsyncLogging.cc.s
 
-.PHONY : src/CountDownLatch.s
+.PHONY : src/base/AsyncLogging.s
 
 # target to generate assembly for a file
-src/CountDownLatch.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/CountDownLatch.cc.s
-.PHONY : src/CountDownLatch.cc.s
+src/base/AsyncLogging.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.s
+.PHONY : src/base/AsyncLogging.cc.s
+
+src/base/CountDownLatch.o: src/base/CountDownLatch.cc.o
+
+.PHONY : src/base/CountDownLatch.o
+
+# target to build an object file
+src/base/CountDownLatch.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o
+.PHONY : src/base/CountDownLatch.cc.o
+
+src/base/CountDownLatch.i: src/base/CountDownLatch.cc.i
+
+.PHONY : src/base/CountDownLatch.i
+
+# target to preprocess a source file
+src/base/CountDownLatch.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.i
+.PHONY : src/base/CountDownLatch.cc.i
+
+src/base/CountDownLatch.s: src/base/CountDownLatch.cc.s
+
+.PHONY : src/base/CountDownLatch.s
+
+# target to generate assembly for a file
+src/base/CountDownLatch.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.s
+.PHONY : src/base/CountDownLatch.cc.s
+
+src/base/FileUtil.o: src/base/FileUtil.cc.o
+
+.PHONY : src/base/FileUtil.o
+
+# target to build an object file
+src/base/FileUtil.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.o
+.PHONY : src/base/FileUtil.cc.o
+
+src/base/FileUtil.i: src/base/FileUtil.cc.i
+
+.PHONY : src/base/FileUtil.i
+
+# target to preprocess a source file
+src/base/FileUtil.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.i
+.PHONY : src/base/FileUtil.cc.i
+
+src/base/FileUtil.s: src/base/FileUtil.cc.s
+
+.PHONY : src/base/FileUtil.s
+
+# target to generate assembly for a file
+src/base/FileUtil.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.s
+.PHONY : src/base/FileUtil.cc.s
+
+src/base/LogFile.o: src/base/LogFile.cc.o
+
+.PHONY : src/base/LogFile.o
+
+# target to build an object file
+src/base/LogFile.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.o
+.PHONY : src/base/LogFile.cc.o
+
+src/base/LogFile.i: src/base/LogFile.cc.i
+
+.PHONY : src/base/LogFile.i
+
+# target to preprocess a source file
+src/base/LogFile.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.i
+.PHONY : src/base/LogFile.cc.i
+
+src/base/LogFile.s: src/base/LogFile.cc.s
+
+.PHONY : src/base/LogFile.s
+
+# target to generate assembly for a file
+src/base/LogFile.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.s
+.PHONY : src/base/LogFile.cc.s
 
 src/base/Thread.o: src/base/Thread.cc.o
 
@@ -270,9 +351,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/CountDownLatch.o"
-	@echo "... src/CountDownLatch.i"
-	@echo "... src/CountDownLatch.s"
+	@echo "... src/base/AsyncLogging.o"
+	@echo "... src/base/AsyncLogging.i"
+	@echo "... src/base/AsyncLogging.s"
+	@echo "... src/base/CountDownLatch.o"
+	@echo "... src/base/CountDownLatch.i"
+	@echo "... src/base/CountDownLatch.s"
+	@echo "... src/base/FileUtil.o"
+	@echo "... src/base/FileUtil.i"
+	@echo "... src/base/FileUtil.s"
+	@echo "... src/base/LogFile.o"
+	@echo "... src/base/LogFile.i"
+	@echo "... src/base/LogFile.s"
 	@echo "... src/base/Thread.o"
 	@echo "... src/base/Thread.i"
 	@echo "... src/base/Thread.s"

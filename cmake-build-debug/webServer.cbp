@@ -89,16 +89,34 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/main.cpp">
          <Option target="webServer"/>
       </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/CountDownLatch.cc">
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/AsyncLogging.cc">
          <Option target="webServer"/>
       </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/CountDownLatch.h">
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/AsyncLogging.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Condition.h">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CountDownLatch.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CountDownLatch.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CurrentThread.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/FileUtil.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/FileUtil.h">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogFile.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogFile.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/MutexLock.h">

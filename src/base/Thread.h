@@ -5,9 +5,12 @@
 #ifndef WEBSERVER_SRC_BASE_THREAD_H_
 #define WEBSERVER_SRC_BASE_THREAD_H_
 
+#include "CountDownLatch.h"
 #include "noncopyable.h"
-#include <string>
 #include <functional>
+#include <pthread.h>
+#include <string>
+
 
 class Thread : noncopyable {
  public:
