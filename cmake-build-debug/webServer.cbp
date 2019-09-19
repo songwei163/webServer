@@ -86,25 +86,16 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/main.cpp">
-         <Option target="webServer"/>
-      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/AsyncLogging.cc">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/AsyncLogging.h">
          <Option target="webServer"/>
       </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Condition.h">
-         <Option target="webServer"/>
-      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CountDownLatch.cc">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CountDownLatch.h">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/CurrentThread.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/FileUtil.cc">
@@ -125,7 +116,10 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/LogStream.h">
          <Option target="webServer"/>
       </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/MutexLock.h">
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Logging.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Logging.h">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Thread.cc">
@@ -134,22 +128,7 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/Thread.h">
          <Option target="webServer"/>
       </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/noncopyable.h">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/common.h">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/myUtil.cc">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/myUtil.h">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.cc">
-         <Option target="webServer"/>
-      </Unit>
-      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/EventLoop.h">
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/logtest.cc">
          <Option target="webServer"/>
       </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/CMakeLists.txt">

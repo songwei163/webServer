@@ -123,33 +123,6 @@ webServer/fast:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/build
 .PHONY : webServer/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 src/base/AsyncLogging.o: src/base/AsyncLogging.cc.o
 
 .PHONY : src/base/AsyncLogging.o
@@ -285,6 +258,33 @@ src/base/LogStream.cc.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.s
 .PHONY : src/base/LogStream.cc.s
 
+src/base/Logging.o: src/base/Logging.cc.o
+
+.PHONY : src/base/Logging.o
+
+# target to build an object file
+src/base/Logging.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.o
+.PHONY : src/base/Logging.cc.o
+
+src/base/Logging.i: src/base/Logging.cc.i
+
+.PHONY : src/base/Logging.i
+
+# target to preprocess a source file
+src/base/Logging.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.i
+.PHONY : src/base/Logging.cc.i
+
+src/base/Logging.s: src/base/Logging.cc.s
+
+.PHONY : src/base/Logging.s
+
+# target to generate assembly for a file
+src/base/Logging.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.s
+.PHONY : src/base/Logging.cc.s
+
 src/base/Thread.o: src/base/Thread.cc.o
 
 .PHONY : src/base/Thread.o
@@ -312,59 +312,32 @@ src/base/Thread.cc.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.s
 .PHONY : src/base/Thread.cc.s
 
-src/myUtil.o: src/myUtil.cc.o
+src/base/logtest.o: src/base/logtest.cc.o
 
-.PHONY : src/myUtil.o
-
-# target to build an object file
-src/myUtil.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.o
-.PHONY : src/myUtil.cc.o
-
-src/myUtil.i: src/myUtil.cc.i
-
-.PHONY : src/myUtil.i
-
-# target to preprocess a source file
-src/myUtil.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.i
-.PHONY : src/myUtil.cc.i
-
-src/myUtil.s: src/myUtil.cc.s
-
-.PHONY : src/myUtil.s
-
-# target to generate assembly for a file
-src/myUtil.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/myUtil.cc.s
-.PHONY : src/myUtil.cc.s
-
-src/net/EventLoop.o: src/net/EventLoop.cc.o
-
-.PHONY : src/net/EventLoop.o
+.PHONY : src/base/logtest.o
 
 # target to build an object file
-src/net/EventLoop.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
-.PHONY : src/net/EventLoop.cc.o
+src/base/logtest.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.o
+.PHONY : src/base/logtest.cc.o
 
-src/net/EventLoop.i: src/net/EventLoop.cc.i
+src/base/logtest.i: src/base/logtest.cc.i
 
-.PHONY : src/net/EventLoop.i
+.PHONY : src/base/logtest.i
 
 # target to preprocess a source file
-src/net/EventLoop.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.i
-.PHONY : src/net/EventLoop.cc.i
+src/base/logtest.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.i
+.PHONY : src/base/logtest.cc.i
 
-src/net/EventLoop.s: src/net/EventLoop.cc.s
+src/base/logtest.s: src/base/logtest.cc.s
 
-.PHONY : src/net/EventLoop.s
+.PHONY : src/base/logtest.s
 
 # target to generate assembly for a file
-src/net/EventLoop.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.s
-.PHONY : src/net/EventLoop.cc.s
+src/base/logtest.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.s
+.PHONY : src/base/logtest.cc.s
 
 # Help Target
 help:
@@ -375,9 +348,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... webServer"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... src/base/AsyncLogging.o"
 	@echo "... src/base/AsyncLogging.i"
 	@echo "... src/base/AsyncLogging.s"
@@ -393,15 +363,15 @@ help:
 	@echo "... src/base/LogStream.o"
 	@echo "... src/base/LogStream.i"
 	@echo "... src/base/LogStream.s"
+	@echo "... src/base/Logging.o"
+	@echo "... src/base/Logging.i"
+	@echo "... src/base/Logging.s"
 	@echo "... src/base/Thread.o"
 	@echo "... src/base/Thread.i"
 	@echo "... src/base/Thread.s"
-	@echo "... src/myUtil.o"
-	@echo "... src/myUtil.i"
-	@echo "... src/myUtil.s"
-	@echo "... src/net/EventLoop.o"
-	@echo "... src/net/EventLoop.i"
-	@echo "... src/net/EventLoop.s"
+	@echo "... src/base/logtest.o"
+	@echo "... src/base/logtest.i"
+	@echo "... src/base/logtest.s"
 .PHONY : help
 
 
