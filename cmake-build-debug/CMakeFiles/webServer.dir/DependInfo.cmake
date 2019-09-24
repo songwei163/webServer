@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/tmp/tmp.ciuGHP4ieV/src/base/Logging.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/Logging.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/base/Thread.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/Thread.cc.o"
   "/tmp/tmp.ciuGHP4ieV/src/base/logtest.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/logtest.cc.o"
+  "/tmp/tmp.ciuGHP4ieV/src/base/testforFileUtil.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o"
+  "/tmp/tmp.ciuGHP4ieV/src/net/Channel.cc" "/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles/webServer.dir/src/net/Channel.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -339,6 +339,60 @@ src/base/logtest.cc.s:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.s
 .PHONY : src/base/logtest.cc.s
 
+src/base/testforFileUtil.o: src/base/testforFileUtil.cc.o
+
+.PHONY : src/base/testforFileUtil.o
+
+# target to build an object file
+src/base/testforFileUtil.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o
+.PHONY : src/base/testforFileUtil.cc.o
+
+src/base/testforFileUtil.i: src/base/testforFileUtil.cc.i
+
+.PHONY : src/base/testforFileUtil.i
+
+# target to preprocess a source file
+src/base/testforFileUtil.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i
+.PHONY : src/base/testforFileUtil.cc.i
+
+src/base/testforFileUtil.s: src/base/testforFileUtil.cc.s
+
+.PHONY : src/base/testforFileUtil.s
+
+# target to generate assembly for a file
+src/base/testforFileUtil.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s
+.PHONY : src/base/testforFileUtil.cc.s
+
+src/net/Channel.o: src/net/Channel.cc.o
+
+.PHONY : src/net/Channel.o
+
+# target to build an object file
+src/net/Channel.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.o
+.PHONY : src/net/Channel.cc.o
+
+src/net/Channel.i: src/net/Channel.cc.i
+
+.PHONY : src/net/Channel.i
+
+# target to preprocess a source file
+src/net/Channel.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.i
+.PHONY : src/net/Channel.cc.i
+
+src/net/Channel.s: src/net/Channel.cc.s
+
+.PHONY : src/net/Channel.s
+
+# target to generate assembly for a file
+src/net/Channel.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.s
+.PHONY : src/net/Channel.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +426,12 @@ help:
 	@echo "... src/base/logtest.o"
 	@echo "... src/base/logtest.i"
 	@echo "... src/base/logtest.s"
+	@echo "... src/base/testforFileUtil.o"
+	@echo "... src/base/testforFileUtil.i"
+	@echo "... src/base/testforFileUtil.s"
+	@echo "... src/net/Channel.o"
+	@echo "... src/net/Channel.i"
+	@echo "... src/net/Channel.s"
 .PHONY : help
 
 

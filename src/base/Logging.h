@@ -6,6 +6,7 @@
 #define WEBSERVER_SRC_BASE_LOGGING_H_
 
 #include "LogStream.h"
+#include "AsyncLogging.h"
 #include <string>
 
 //class AsyncLogging;
@@ -20,6 +21,7 @@ class Logger {
   {
     logFileName_ = fileName;
   }
+
   static std::string getLogFileName()
   {
     return logFileName_;

@@ -20,4 +20,5 @@ class AppendFile : noncopyable {
   FILE *fp_;
   char buffer_[64 * 1024];
 };
+
 #endif //WEBSERVER_SRC_BASE_FILEUTIL_H_

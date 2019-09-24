@@ -131,6 +131,15 @@
       <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/logtest.cc">
          <Option target="webServer"/>
       </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/base/testforFileUtil.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/Channel.cc">
+         <Option target="webServer"/>
+      </Unit>
+      <Unit filename="/tmp/tmp.ciuGHP4ieV/src/net/Channel.h">
+         <Option target="webServer"/>
+      </Unit>
       <Unit filename="/tmp/tmp.ciuGHP4ieV/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>

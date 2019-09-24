@@ -249,6 +249,54 @@ CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o.provides: CMakeFiles/webSe
 CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o.provides.build: CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o
 
 
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: CMakeFiles/webServer.dir/flags.make
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/testforFileUtil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o -c /tmp/tmp.ciuGHP4ieV/src/base/testforFileUtil.cc
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.ciuGHP4ieV/src/base/testforFileUtil.cc > CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.ciuGHP4ieV/src/base/testforFileUtil.cc -o CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.requires:
+
+.PHONY : CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.requires
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.provides: CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.requires
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.provides.build
+.PHONY : CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.provides
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.provides.build: CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o
+
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.o: CMakeFiles/webServer.dir/flags.make
+CMakeFiles/webServer.dir/src/net/Channel.cc.o: ../src/net/Channel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/webServer.dir/src/net/Channel.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/Channel.cc.o -c /tmp/tmp.ciuGHP4ieV/src/net/Channel.cc
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/Channel.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.ciuGHP4ieV/src/net/Channel.cc > CMakeFiles/webServer.dir/src/net/Channel.cc.i
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/Channel.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.ciuGHP4ieV/src/net/Channel.cc -o CMakeFiles/webServer.dir/src/net/Channel.cc.s
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.o.requires:
+
+.PHONY : CMakeFiles/webServer.dir/src/net/Channel.cc.o.requires
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.o.provides: CMakeFiles/webServer.dir/src/net/Channel.cc.o.requires
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.o.provides.build
+.PHONY : CMakeFiles/webServer.dir/src/net/Channel.cc.o.provides
+
+CMakeFiles/webServer.dir/src/net/Channel.cc.o.provides.build: CMakeFiles/webServer.dir/src/net/Channel.cc.o
+
+
 # Object files for target webServer
 webServer_OBJECTS = \
 "CMakeFiles/webServer.dir/src/base/logtest.cc.o" \
@@ -258,7 +306,9 @@ webServer_OBJECTS = \
 "CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o" \
 "CMakeFiles/webServer.dir/src/base/Logging.cc.o" \
 "CMakeFiles/webServer.dir/src/base/Thread.cc.o" \
-"CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o"
+"CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o" \
+"CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o" \
+"CMakeFiles/webServer.dir/src/net/Channel.cc.o"
 
 # External object files for target webServer
 webServer_EXTERNAL_OBJECTS =
@@ -271,9 +321,11 @@ webServer: CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o
 webServer: CMakeFiles/webServer.dir/src/base/Logging.cc.o
 webServer: CMakeFiles/webServer.dir/src/base/Thread.cc.o
 webServer: CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o
+webServer: CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o
+webServer: CMakeFiles/webServer.dir/src/net/Channel.cc.o
 webServer: CMakeFiles/webServer.dir/build.make
 webServer: CMakeFiles/webServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable webServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.ciuGHP4ieV/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable webServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +341,8 @@ CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/AsyncLoggin
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/Logging.cc.o.requires
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/Thread.cc.o.requires
 CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o.requires
+CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o.requires
+CMakeFiles/webServer.dir/requires: CMakeFiles/webServer.dir/src/net/Channel.cc.o.requires
 
 .PHONY : CMakeFiles/webServer.dir/requires
 

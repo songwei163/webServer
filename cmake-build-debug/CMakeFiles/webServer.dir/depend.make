@@ -12,6 +12,12 @@ CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o: ../src/base/MutexLock.h
 CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o: ../src/base/Thread.h
 CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o: ../src/base/noncopyable.h
 
+CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/Condition.h
+CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/CountDownLatch.cc
+CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/CountDownLatch.h
+CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/MutexLock.h
+CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/noncopyable.h
+
 CMakeFiles/webServer.dir/src/base/FileUtil.cc.o: ../src/base/FileUtil.cc
 CMakeFiles/webServer.dir/src/base/FileUtil.cc.o: ../src/base/FileUtil.h
 CMakeFiles/webServer.dir/src/base/FileUtil.cc.o: ../src/base/noncopyable.h
@@ -46,10 +52,15 @@ CMakeFiles/webServer.dir/src/base/Thread.cc.o: ../src/base/noncopyable.h
 
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/Condition.h
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/CountDownLatch.h
-CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/LogStream.h
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/Logging.h
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/MutexLock.h
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/Thread.h
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/logtest.cc
 CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/noncopyable.h
+
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/FileUtil.h
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/LogFile.h
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/MutexLock.h
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/noncopyable.h
+CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/testforFileUtil.cc
 
