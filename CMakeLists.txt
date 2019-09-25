@@ -21,7 +21,7 @@ add_executable(webServer src/base/logtest.cc src/base/FileUtil.h
         ${INC_DIR}/Thread.cc
         ${INC_DIR}/CountDownLatch.h
         ${INC_DIR}/CountDownLatch.cc
-        ${INC_DIR}/testforFileUtil.cc src/net/Channel.cc src/net/Channel.h)
+        ${INC_DIR}/testforFileUtil.cc src/net/Channel.cc src/net/Channel.h src/net/EventLoop.cc src/net/EventLoop.h src/net/HttpData.cc src/net/HttpData.h src/net/Timer.cc src/net/Timer.h src/net/Epoll.cc src/net/Epoll.h)
 target_link_libraries(webServer pthread)
 #add_executable(testforFileUtil src/base/testforFileUtil.cc src/base/LogFile.h src/base/LogFile.cc
 #        src/base/FileUtil.cc src/base/FileUtil.h )

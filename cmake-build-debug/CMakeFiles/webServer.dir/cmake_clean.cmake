@@ -9,6 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o"
   "CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o"
   "CMakeFiles/webServer.dir/src/net/Channel.cc.o"
+  "CMakeFiles/webServer.dir/src/net/EventLoop.cc.o"
+  "CMakeFiles/webServer.dir/src/net/HttpData.cc.o"
+  "CMakeFiles/webServer.dir/src/net/Timer.cc.o"
+  "CMakeFiles/webServer.dir/src/net/Epoll.cc.o"
   "webServer.pdb"
   "webServer"
 )
