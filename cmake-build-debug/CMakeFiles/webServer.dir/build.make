@@ -57,225 +57,33 @@ include CMakeFiles/webServer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/webServer.dir/flags.make
 
-CMakeFiles/webServer.dir/src/base/logtest.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/logtest.cc.o: ../src/base/logtest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webServer.dir/src/base/logtest.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/logtest.cc.o -c /home/s/CLionProjects/webServer/src/base/logtest.cc
+CMakeFiles/webServer.dir/src/main.cc.o: CMakeFiles/webServer.dir/flags.make
+CMakeFiles/webServer.dir/src/main.cc.o: ../src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webServer.dir/src/main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/main.cc.o -c /home/s/CLionProjects/webServer/src/main.cc
 
-CMakeFiles/webServer.dir/src/base/logtest.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/logtest.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/logtest.cc > CMakeFiles/webServer.dir/src/base/logtest.cc.i
+CMakeFiles/webServer.dir/src/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/main.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/main.cc > CMakeFiles/webServer.dir/src/main.cc.i
 
-CMakeFiles/webServer.dir/src/base/logtest.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/logtest.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/logtest.cc -o CMakeFiles/webServer.dir/src/base/logtest.cc.s
-
-CMakeFiles/webServer.dir/src/base/FileUtil.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/FileUtil.cc.o: ../src/base/FileUtil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webServer.dir/src/base/FileUtil.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/FileUtil.cc.o -c /home/s/CLionProjects/webServer/src/base/FileUtil.cc
-
-CMakeFiles/webServer.dir/src/base/FileUtil.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/FileUtil.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/FileUtil.cc > CMakeFiles/webServer.dir/src/base/FileUtil.cc.i
-
-CMakeFiles/webServer.dir/src/base/FileUtil.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/FileUtil.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/FileUtil.cc -o CMakeFiles/webServer.dir/src/base/FileUtil.cc.s
-
-CMakeFiles/webServer.dir/src/base/LogFile.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/LogFile.cc.o: ../src/base/LogFile.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webServer.dir/src/base/LogFile.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/LogFile.cc.o -c /home/s/CLionProjects/webServer/src/base/LogFile.cc
-
-CMakeFiles/webServer.dir/src/base/LogFile.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/LogFile.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/LogFile.cc > CMakeFiles/webServer.dir/src/base/LogFile.cc.i
-
-CMakeFiles/webServer.dir/src/base/LogFile.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/LogFile.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/LogFile.cc -o CMakeFiles/webServer.dir/src/base/LogFile.cc.s
-
-CMakeFiles/webServer.dir/src/base/LogStream.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/LogStream.cc.o: ../src/base/LogStream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webServer.dir/src/base/LogStream.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/LogStream.cc.o -c /home/s/CLionProjects/webServer/src/base/LogStream.cc
-
-CMakeFiles/webServer.dir/src/base/LogStream.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/LogStream.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/LogStream.cc > CMakeFiles/webServer.dir/src/base/LogStream.cc.i
-
-CMakeFiles/webServer.dir/src/base/LogStream.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/LogStream.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/LogStream.cc -o CMakeFiles/webServer.dir/src/base/LogStream.cc.s
-
-CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o: ../src/base/AsyncLogging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o -c /home/s/CLionProjects/webServer/src/base/AsyncLogging.cc
-
-CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/AsyncLogging.cc > CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.i
-
-CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/AsyncLogging.cc -o CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.s
-
-CMakeFiles/webServer.dir/src/base/Logging.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/Logging.cc.o: ../src/base/Logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/webServer.dir/src/base/Logging.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/Logging.cc.o -c /home/s/CLionProjects/webServer/src/base/Logging.cc
-
-CMakeFiles/webServer.dir/src/base/Logging.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/Logging.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/Logging.cc > CMakeFiles/webServer.dir/src/base/Logging.cc.i
-
-CMakeFiles/webServer.dir/src/base/Logging.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/Logging.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/Logging.cc -o CMakeFiles/webServer.dir/src/base/Logging.cc.s
-
-CMakeFiles/webServer.dir/src/base/Thread.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/Thread.cc.o: ../src/base/Thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/webServer.dir/src/base/Thread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/Thread.cc.o -c /home/s/CLionProjects/webServer/src/base/Thread.cc
-
-CMakeFiles/webServer.dir/src/base/Thread.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/Thread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/Thread.cc > CMakeFiles/webServer.dir/src/base/Thread.cc.i
-
-CMakeFiles/webServer.dir/src/base/Thread.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/Thread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/Thread.cc -o CMakeFiles/webServer.dir/src/base/Thread.cc.s
-
-CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o: ../src/base/CountDownLatch.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o -c /home/s/CLionProjects/webServer/src/base/CountDownLatch.cc
-
-CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/CountDownLatch.cc > CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.i
-
-CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/CountDownLatch.cc -o CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.s
-
-CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o: ../src/base/testforFileUtil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o -c /home/s/CLionProjects/webServer/src/base/testforFileUtil.cc
-
-CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/base/testforFileUtil.cc > CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i
-
-CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/base/testforFileUtil.cc -o CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s
-
-CMakeFiles/webServer.dir/src/net/Channel.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/net/Channel.cc.o: ../src/net/Channel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/webServer.dir/src/net/Channel.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/Channel.cc.o -c /home/s/CLionProjects/webServer/src/net/Channel.cc
-
-CMakeFiles/webServer.dir/src/net/Channel.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/Channel.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/net/Channel.cc > CMakeFiles/webServer.dir/src/net/Channel.cc.i
-
-CMakeFiles/webServer.dir/src/net/Channel.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/Channel.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/net/Channel.cc -o CMakeFiles/webServer.dir/src/net/Channel.cc.s
-
-CMakeFiles/webServer.dir/src/net/EventLoop.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/net/EventLoop.cc.o: ../src/net/EventLoop.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/webServer.dir/src/net/EventLoop.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/EventLoop.cc.o -c /home/s/CLionProjects/webServer/src/net/EventLoop.cc
-
-CMakeFiles/webServer.dir/src/net/EventLoop.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/EventLoop.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/net/EventLoop.cc > CMakeFiles/webServer.dir/src/net/EventLoop.cc.i
-
-CMakeFiles/webServer.dir/src/net/EventLoop.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/EventLoop.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/net/EventLoop.cc -o CMakeFiles/webServer.dir/src/net/EventLoop.cc.s
-
-CMakeFiles/webServer.dir/src/net/HttpData.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/net/HttpData.cc.o: ../src/net/HttpData.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/webServer.dir/src/net/HttpData.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/HttpData.cc.o -c /home/s/CLionProjects/webServer/src/net/HttpData.cc
-
-CMakeFiles/webServer.dir/src/net/HttpData.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/HttpData.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/net/HttpData.cc > CMakeFiles/webServer.dir/src/net/HttpData.cc.i
-
-CMakeFiles/webServer.dir/src/net/HttpData.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/HttpData.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/net/HttpData.cc -o CMakeFiles/webServer.dir/src/net/HttpData.cc.s
-
-CMakeFiles/webServer.dir/src/net/Timer.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/net/Timer.cc.o: ../src/net/Timer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/webServer.dir/src/net/Timer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/Timer.cc.o -c /home/s/CLionProjects/webServer/src/net/Timer.cc
-
-CMakeFiles/webServer.dir/src/net/Timer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/Timer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/net/Timer.cc > CMakeFiles/webServer.dir/src/net/Timer.cc.i
-
-CMakeFiles/webServer.dir/src/net/Timer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/Timer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/net/Timer.cc -o CMakeFiles/webServer.dir/src/net/Timer.cc.s
-
-CMakeFiles/webServer.dir/src/net/Epoll.cc.o: CMakeFiles/webServer.dir/flags.make
-CMakeFiles/webServer.dir/src/net/Epoll.cc.o: ../src/net/Epoll.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/webServer.dir/src/net/Epoll.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webServer.dir/src/net/Epoll.cc.o -c /home/s/CLionProjects/webServer/src/net/Epoll.cc
-
-CMakeFiles/webServer.dir/src/net/Epoll.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webServer.dir/src/net/Epoll.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/CLionProjects/webServer/src/net/Epoll.cc > CMakeFiles/webServer.dir/src/net/Epoll.cc.i
-
-CMakeFiles/webServer.dir/src/net/Epoll.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/net/Epoll.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/net/Epoll.cc -o CMakeFiles/webServer.dir/src/net/Epoll.cc.s
+CMakeFiles/webServer.dir/src/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webServer.dir/src/main.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/CLionProjects/webServer/src/main.cc -o CMakeFiles/webServer.dir/src/main.cc.s
 
 # Object files for target webServer
 webServer_OBJECTS = \
-"CMakeFiles/webServer.dir/src/base/logtest.cc.o" \
-"CMakeFiles/webServer.dir/src/base/FileUtil.cc.o" \
-"CMakeFiles/webServer.dir/src/base/LogFile.cc.o" \
-"CMakeFiles/webServer.dir/src/base/LogStream.cc.o" \
-"CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o" \
-"CMakeFiles/webServer.dir/src/base/Logging.cc.o" \
-"CMakeFiles/webServer.dir/src/base/Thread.cc.o" \
-"CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o" \
-"CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o" \
-"CMakeFiles/webServer.dir/src/net/Channel.cc.o" \
-"CMakeFiles/webServer.dir/src/net/EventLoop.cc.o" \
-"CMakeFiles/webServer.dir/src/net/HttpData.cc.o" \
-"CMakeFiles/webServer.dir/src/net/Timer.cc.o" \
-"CMakeFiles/webServer.dir/src/net/Epoll.cc.o"
+"CMakeFiles/webServer.dir/src/main.cc.o"
 
 # External object files for target webServer
 webServer_EXTERNAL_OBJECTS =
 
-webServer: CMakeFiles/webServer.dir/src/base/logtest.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/FileUtil.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/LogFile.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/LogStream.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/Logging.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/Thread.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o
-webServer: CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o
-webServer: CMakeFiles/webServer.dir/src/net/Channel.cc.o
-webServer: CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
-webServer: CMakeFiles/webServer.dir/src/net/HttpData.cc.o
-webServer: CMakeFiles/webServer.dir/src/net/Timer.cc.o
-webServer: CMakeFiles/webServer.dir/src/net/Epoll.cc.o
+webServer: CMakeFiles/webServer.dir/src/main.cc.o
 webServer: CMakeFiles/webServer.dir/build.make
+webServer: src/base/libbase.a
+webServer: src/net/libnet.a
+webServer: src/base/libbase.a
 webServer: CMakeFiles/webServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable webServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s/CLionProjects/webServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

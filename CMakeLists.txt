@@ -3,29 +3,14 @@ project(webServer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(INC_DIR src/base)
+set(PROJECT_SOURCE_DIR src/)
+set(SRC_BASE_DIR ${PROJECT_SOURCE_DIR}/base)
+set(SRC_NET_DIR ${SRC_NET_DIR} ${PROJECT_SOURCE_DIR}/net)
 
-include_directories(${INC_DIR})
-add_executable(webServer src/base/logtest.cc src/base/FileUtil.h
-        ${INC_DIR}/FileUtil.cc
-        ${INC_DIR}/LogFile.h
-        ${INC_DIR}/LogFile.cc
-        ${INC_DIR}/LogFile.h
-        ${INC_DIR}/LogStream.h
-        ${INC_DIR}/LogStream.cc
-        ${INC_DIR}/AsyncLogging.h
-        ${INC_DIR}/AsyncLogging.cc
-        ${INC_DIR}/Logging.h
-        ${INC_DIR}/Logging.cc
-        ${INC_DIR}/Thread.h
-        ${INC_DIR}/Thread.cc
-        ${INC_DIR}/CountDownLatch.h
-        ${INC_DIR}/CountDownLatch.cc
-        ${INC_DIR}/testforFileUtil.cc src/net/Channel.cc src/net/Channel.h src/net/EventLoop.cc src/net/EventLoop.h src/net/HttpData.cc src/net/HttpData.h src/net/Timer.cc src/net/Timer.h src/net/Epoll.cc src/net/Epoll.h)
-target_link_libraries(webServer pthread)
-#add_executable(testforFileUtil src/base/testforFileUtil.cc src/base/LogFile.h src/base/LogFile.cc
-#        src/base/FileUtil.cc src/base/FileUtil.h )
+include_directories(${SRC_BASE_DIR} ${SRC_NET_DIR})
 
+add_executable(webServer ${PROJECT_SOURCE_DIR}/main.cc)
+target_link_libraries(webServer base net)
 
-
-#target_link_libraries(webServer pthread)
+add_subdirectory(${SRC_BASE_DIR})
+add_subdirectory(${SRC_NET_DIR})

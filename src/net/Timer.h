@@ -6,10 +6,14 @@
 #define WEBSERVER_SRC_NET_TIMER_H_
 
 #include "HttpData.h"
-
+#include "noncopyable.h"
+#include "MutexLock.h"
+#include <unistd.h>
 #include <memory>
-#include <deque>
 #include <queue>
+#include <deque>
+
+class HttpData;
 
 class TimerNode {
  public:

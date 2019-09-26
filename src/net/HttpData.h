@@ -5,16 +5,18 @@
 #ifndef WEBSERVER_SRC_NET_HTTPDATA_H_
 #define WEBSERVER_SRC_NET_HTTPDATA_H_
 
-#include "Channel.h"
-#include "EventLoop.h"
 #include "Timer.h"
-
-#include <unistd.h>
-
 #include <string>
 #include <unordered_map>
 #include <map>
 #include <memory>
+#include <sys/epoll.h>
+#include <functional>
+#include <unistd.h>
+
+class EventLoop;
+class TimerNode;
+class Channel;
 
 enum ProcessState {
   STATE_PARSE_URI = 1,

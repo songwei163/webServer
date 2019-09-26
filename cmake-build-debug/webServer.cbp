@@ -5,7 +5,7 @@
 		<Option title="webServer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\base\;CMake Files\src\base\tests\;CMake Files\src\net\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug"/>
@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -58,6 +59,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -83,87 +85,240 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="base">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 base"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base/fast">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 base/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testLOG">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/testLOG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 testLOG"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testLOG/fast">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/testLOG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 testLOG/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/net/libnet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 net"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net/fast">
+				<Option output="/home/s/CLionProjects/webServer/cmake-build-debug/src/net/libnet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/s/CLionProjects/webServer/cmake-build-debug/src/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/s/CLionProjects/webServer/src/base"/>
+					<Add directory="/home/s/CLionProjects/webServer/src/net"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 net/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/s/CLionProjects/webServer/cmake-build-debug/src/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/AsyncLogging.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/AsyncLogging.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/CountDownLatch.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/CountDownLatch.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/FileUtil.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/FileUtil.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/LogFile.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/LogFile.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/LogStream.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/LogStream.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/Logging.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/Logging.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/Thread.cc">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/base/Thread.h">
-			<Option target="webServer"/>
+			<Option target="base"/>
 		</Unit>
-		<Unit filename="/home/s/CLionProjects/webServer/src/base/logtest.cc">
-			<Option target="webServer"/>
+		<Unit filename="/home/s/CLionProjects/webServer/src/base/tests/testLOG.cc">
+			<Option target="testLOG"/>
 		</Unit>
-		<Unit filename="/home/s/CLionProjects/webServer/src/base/testforFileUtil.cc">
+		<Unit filename="/home/s/CLionProjects/webServer/src/main.cc">
 			<Option target="webServer"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Channel.cc">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Channel.h">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Epoll.cc">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Epoll.h">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/EventLoop.cc">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/EventLoop.h">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/HttpData.cc">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/HttpData.h">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Timer.cc">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/src/net/Timer.h">
-			<Option target="webServer"/>
+			<Option target="net"/>
 		</Unit>
 		<Unit filename="/home/s/CLionProjects/webServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/s/CLionProjects/webServer/src/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\base\"/>
+		</Unit>
+		<Unit filename="/home/s/CLionProjects/webServer/src/base/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\base\tests\"/>
+		</Unit>
+		<Unit filename="/home/s/CLionProjects/webServer/src/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\net\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

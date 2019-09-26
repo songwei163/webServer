@@ -123,383 +123,71 @@ webServer/fast:
 	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/build
 .PHONY : webServer/fast
 
-src/base/AsyncLogging.o: src/base/AsyncLogging.cc.o
+#=============================================================================
+# Target rules for targets named base
 
-.PHONY : src/base/AsyncLogging.o
+# Build rule for target.
+base: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 base
+.PHONY : base
 
-# target to build an object file
-src/base/AsyncLogging.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.o
-.PHONY : src/base/AsyncLogging.cc.o
+# fast build rule for target.
+base/fast:
+	$(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
+.PHONY : base/fast
 
-src/base/AsyncLogging.i: src/base/AsyncLogging.cc.i
+#=============================================================================
+# Target rules for targets named testLOG
 
-.PHONY : src/base/AsyncLogging.i
+# Build rule for target.
+testLOG: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLOG
+.PHONY : testLOG
 
-# target to preprocess a source file
-src/base/AsyncLogging.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.i
-.PHONY : src/base/AsyncLogging.cc.i
+# fast build rule for target.
+testLOG/fast:
+	$(MAKE) -f src/base/tests/CMakeFiles/testLOG.dir/build.make src/base/tests/CMakeFiles/testLOG.dir/build
+.PHONY : testLOG/fast
 
-src/base/AsyncLogging.s: src/base/AsyncLogging.cc.s
+#=============================================================================
+# Target rules for targets named net
 
-.PHONY : src/base/AsyncLogging.s
+# Build rule for target.
+net: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 net
+.PHONY : net
 
-# target to generate assembly for a file
-src/base/AsyncLogging.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/AsyncLogging.cc.s
-.PHONY : src/base/AsyncLogging.cc.s
+# fast build rule for target.
+net/fast:
+	$(MAKE) -f src/net/CMakeFiles/net.dir/build.make src/net/CMakeFiles/net.dir/build
+.PHONY : net/fast
 
-src/base/CountDownLatch.o: src/base/CountDownLatch.cc.o
+src/main.o: src/main.cc.o
 
-.PHONY : src/base/CountDownLatch.o
-
-# target to build an object file
-src/base/CountDownLatch.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.o
-.PHONY : src/base/CountDownLatch.cc.o
-
-src/base/CountDownLatch.i: src/base/CountDownLatch.cc.i
-
-.PHONY : src/base/CountDownLatch.i
-
-# target to preprocess a source file
-src/base/CountDownLatch.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.i
-.PHONY : src/base/CountDownLatch.cc.i
-
-src/base/CountDownLatch.s: src/base/CountDownLatch.cc.s
-
-.PHONY : src/base/CountDownLatch.s
-
-# target to generate assembly for a file
-src/base/CountDownLatch.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/CountDownLatch.cc.s
-.PHONY : src/base/CountDownLatch.cc.s
-
-src/base/FileUtil.o: src/base/FileUtil.cc.o
-
-.PHONY : src/base/FileUtil.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/base/FileUtil.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.o
-.PHONY : src/base/FileUtil.cc.o
+src/main.cc.o:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/main.cc.o
+.PHONY : src/main.cc.o
 
-src/base/FileUtil.i: src/base/FileUtil.cc.i
+src/main.i: src/main.cc.i
 
-.PHONY : src/base/FileUtil.i
-
-# target to preprocess a source file
-src/base/FileUtil.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.i
-.PHONY : src/base/FileUtil.cc.i
-
-src/base/FileUtil.s: src/base/FileUtil.cc.s
-
-.PHONY : src/base/FileUtil.s
-
-# target to generate assembly for a file
-src/base/FileUtil.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/FileUtil.cc.s
-.PHONY : src/base/FileUtil.cc.s
-
-src/base/LogFile.o: src/base/LogFile.cc.o
-
-.PHONY : src/base/LogFile.o
-
-# target to build an object file
-src/base/LogFile.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.o
-.PHONY : src/base/LogFile.cc.o
-
-src/base/LogFile.i: src/base/LogFile.cc.i
-
-.PHONY : src/base/LogFile.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/base/LogFile.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.i
-.PHONY : src/base/LogFile.cc.i
+src/main.cc.i:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/main.cc.i
+.PHONY : src/main.cc.i
 
-src/base/LogFile.s: src/base/LogFile.cc.s
+src/main.s: src/main.cc.s
 
-.PHONY : src/base/LogFile.s
-
-# target to generate assembly for a file
-src/base/LogFile.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogFile.cc.s
-.PHONY : src/base/LogFile.cc.s
-
-src/base/LogStream.o: src/base/LogStream.cc.o
-
-.PHONY : src/base/LogStream.o
-
-# target to build an object file
-src/base/LogStream.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.o
-.PHONY : src/base/LogStream.cc.o
-
-src/base/LogStream.i: src/base/LogStream.cc.i
-
-.PHONY : src/base/LogStream.i
-
-# target to preprocess a source file
-src/base/LogStream.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.i
-.PHONY : src/base/LogStream.cc.i
-
-src/base/LogStream.s: src/base/LogStream.cc.s
-
-.PHONY : src/base/LogStream.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/base/LogStream.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/LogStream.cc.s
-.PHONY : src/base/LogStream.cc.s
-
-src/base/Logging.o: src/base/Logging.cc.o
-
-.PHONY : src/base/Logging.o
-
-# target to build an object file
-src/base/Logging.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.o
-.PHONY : src/base/Logging.cc.o
-
-src/base/Logging.i: src/base/Logging.cc.i
-
-.PHONY : src/base/Logging.i
-
-# target to preprocess a source file
-src/base/Logging.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.i
-.PHONY : src/base/Logging.cc.i
-
-src/base/Logging.s: src/base/Logging.cc.s
-
-.PHONY : src/base/Logging.s
-
-# target to generate assembly for a file
-src/base/Logging.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Logging.cc.s
-.PHONY : src/base/Logging.cc.s
-
-src/base/Thread.o: src/base/Thread.cc.o
-
-.PHONY : src/base/Thread.o
-
-# target to build an object file
-src/base/Thread.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.o
-.PHONY : src/base/Thread.cc.o
-
-src/base/Thread.i: src/base/Thread.cc.i
-
-.PHONY : src/base/Thread.i
-
-# target to preprocess a source file
-src/base/Thread.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.i
-.PHONY : src/base/Thread.cc.i
-
-src/base/Thread.s: src/base/Thread.cc.s
-
-.PHONY : src/base/Thread.s
-
-# target to generate assembly for a file
-src/base/Thread.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/Thread.cc.s
-.PHONY : src/base/Thread.cc.s
-
-src/base/logtest.o: src/base/logtest.cc.o
-
-.PHONY : src/base/logtest.o
-
-# target to build an object file
-src/base/logtest.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.o
-.PHONY : src/base/logtest.cc.o
-
-src/base/logtest.i: src/base/logtest.cc.i
-
-.PHONY : src/base/logtest.i
-
-# target to preprocess a source file
-src/base/logtest.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.i
-.PHONY : src/base/logtest.cc.i
-
-src/base/logtest.s: src/base/logtest.cc.s
-
-.PHONY : src/base/logtest.s
-
-# target to generate assembly for a file
-src/base/logtest.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/logtest.cc.s
-.PHONY : src/base/logtest.cc.s
-
-src/base/testforFileUtil.o: src/base/testforFileUtil.cc.o
-
-.PHONY : src/base/testforFileUtil.o
-
-# target to build an object file
-src/base/testforFileUtil.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.o
-.PHONY : src/base/testforFileUtil.cc.o
-
-src/base/testforFileUtil.i: src/base/testforFileUtil.cc.i
-
-.PHONY : src/base/testforFileUtil.i
-
-# target to preprocess a source file
-src/base/testforFileUtil.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.i
-.PHONY : src/base/testforFileUtil.cc.i
-
-src/base/testforFileUtil.s: src/base/testforFileUtil.cc.s
-
-.PHONY : src/base/testforFileUtil.s
-
-# target to generate assembly for a file
-src/base/testforFileUtil.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/base/testforFileUtil.cc.s
-.PHONY : src/base/testforFileUtil.cc.s
-
-src/net/Channel.o: src/net/Channel.cc.o
-
-.PHONY : src/net/Channel.o
-
-# target to build an object file
-src/net/Channel.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.o
-.PHONY : src/net/Channel.cc.o
-
-src/net/Channel.i: src/net/Channel.cc.i
-
-.PHONY : src/net/Channel.i
-
-# target to preprocess a source file
-src/net/Channel.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.i
-.PHONY : src/net/Channel.cc.i
-
-src/net/Channel.s: src/net/Channel.cc.s
-
-.PHONY : src/net/Channel.s
-
-# target to generate assembly for a file
-src/net/Channel.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Channel.cc.s
-.PHONY : src/net/Channel.cc.s
-
-src/net/Epoll.o: src/net/Epoll.cc.o
-
-.PHONY : src/net/Epoll.o
-
-# target to build an object file
-src/net/Epoll.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Epoll.cc.o
-.PHONY : src/net/Epoll.cc.o
-
-src/net/Epoll.i: src/net/Epoll.cc.i
-
-.PHONY : src/net/Epoll.i
-
-# target to preprocess a source file
-src/net/Epoll.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Epoll.cc.i
-.PHONY : src/net/Epoll.cc.i
-
-src/net/Epoll.s: src/net/Epoll.cc.s
-
-.PHONY : src/net/Epoll.s
-
-# target to generate assembly for a file
-src/net/Epoll.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Epoll.cc.s
-.PHONY : src/net/Epoll.cc.s
-
-src/net/EventLoop.o: src/net/EventLoop.cc.o
-
-.PHONY : src/net/EventLoop.o
-
-# target to build an object file
-src/net/EventLoop.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.o
-.PHONY : src/net/EventLoop.cc.o
-
-src/net/EventLoop.i: src/net/EventLoop.cc.i
-
-.PHONY : src/net/EventLoop.i
-
-# target to preprocess a source file
-src/net/EventLoop.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.i
-.PHONY : src/net/EventLoop.cc.i
-
-src/net/EventLoop.s: src/net/EventLoop.cc.s
-
-.PHONY : src/net/EventLoop.s
-
-# target to generate assembly for a file
-src/net/EventLoop.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/EventLoop.cc.s
-.PHONY : src/net/EventLoop.cc.s
-
-src/net/HttpData.o: src/net/HttpData.cc.o
-
-.PHONY : src/net/HttpData.o
-
-# target to build an object file
-src/net/HttpData.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/HttpData.cc.o
-.PHONY : src/net/HttpData.cc.o
-
-src/net/HttpData.i: src/net/HttpData.cc.i
-
-.PHONY : src/net/HttpData.i
-
-# target to preprocess a source file
-src/net/HttpData.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/HttpData.cc.i
-.PHONY : src/net/HttpData.cc.i
-
-src/net/HttpData.s: src/net/HttpData.cc.s
-
-.PHONY : src/net/HttpData.s
-
-# target to generate assembly for a file
-src/net/HttpData.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/HttpData.cc.s
-.PHONY : src/net/HttpData.cc.s
-
-src/net/Timer.o: src/net/Timer.cc.o
-
-.PHONY : src/net/Timer.o
-
-# target to build an object file
-src/net/Timer.cc.o:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Timer.cc.o
-.PHONY : src/net/Timer.cc.o
-
-src/net/Timer.i: src/net/Timer.cc.i
-
-.PHONY : src/net/Timer.i
-
-# target to preprocess a source file
-src/net/Timer.cc.i:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Timer.cc.i
-.PHONY : src/net/Timer.cc.i
-
-src/net/Timer.s: src/net/Timer.cc.s
-
-.PHONY : src/net/Timer.s
-
-# target to generate assembly for a file
-src/net/Timer.cc.s:
-	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/net/Timer.cc.s
-.PHONY : src/net/Timer.cc.s
+src/main.cc.s:
+	$(MAKE) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/src/main.cc.s
+.PHONY : src/main.cc.s
 
 # Help Target
 help:
@@ -510,48 +198,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... webServer"
 	@echo "... edit_cache"
-	@echo "... src/base/AsyncLogging.o"
-	@echo "... src/base/AsyncLogging.i"
-	@echo "... src/base/AsyncLogging.s"
-	@echo "... src/base/CountDownLatch.o"
-	@echo "... src/base/CountDownLatch.i"
-	@echo "... src/base/CountDownLatch.s"
-	@echo "... src/base/FileUtil.o"
-	@echo "... src/base/FileUtil.i"
-	@echo "... src/base/FileUtil.s"
-	@echo "... src/base/LogFile.o"
-	@echo "... src/base/LogFile.i"
-	@echo "... src/base/LogFile.s"
-	@echo "... src/base/LogStream.o"
-	@echo "... src/base/LogStream.i"
-	@echo "... src/base/LogStream.s"
-	@echo "... src/base/Logging.o"
-	@echo "... src/base/Logging.i"
-	@echo "... src/base/Logging.s"
-	@echo "... src/base/Thread.o"
-	@echo "... src/base/Thread.i"
-	@echo "... src/base/Thread.s"
-	@echo "... src/base/logtest.o"
-	@echo "... src/base/logtest.i"
-	@echo "... src/base/logtest.s"
-	@echo "... src/base/testforFileUtil.o"
-	@echo "... src/base/testforFileUtil.i"
-	@echo "... src/base/testforFileUtil.s"
-	@echo "... src/net/Channel.o"
-	@echo "... src/net/Channel.i"
-	@echo "... src/net/Channel.s"
-	@echo "... src/net/Epoll.o"
-	@echo "... src/net/Epoll.i"
-	@echo "... src/net/Epoll.s"
-	@echo "... src/net/EventLoop.o"
-	@echo "... src/net/EventLoop.i"
-	@echo "... src/net/EventLoop.s"
-	@echo "... src/net/HttpData.o"
-	@echo "... src/net/HttpData.i"
-	@echo "... src/net/HttpData.s"
-	@echo "... src/net/Timer.o"
-	@echo "... src/net/Timer.i"
-	@echo "... src/net/Timer.s"
+	@echo "... base"
+	@echo "... testLOG"
+	@echo "... net"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

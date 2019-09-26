@@ -3,14 +3,10 @@
 //
 
 #include "EventLoop.h"
-#include "myUtil.h"
-#include "Channel.h"
 #include "Logging.h"
-#include "Epoll.h"
-
-#include <functional>
-#include <cassert>
+#include "myUtil.h"
 #include <sys/eventfd.h>
+#include <sys/epoll.h>
 
 __thread EventLoop *t_loopInThisThread = 0;
 

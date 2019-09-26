@@ -3,8 +3,9 @@
 //
 
 #include "Timer.h"
-
 #include <sys/time.h>
+#include <unistd.h>
+#include <queue>
 
 TimerNode::TimerNode(std::shared_ptr<HttpData> requestData, int timeout)
     : deleted_(false),

@@ -33,6 +33,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeSystem.cmake"
+  "../src/base/CMakeLists.txt"
+  "../src/base/tests/CMakeLists.txt"
+  "../src/net/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -44,9 +47,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/base/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/net/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/webServer.dir/DependInfo.cmake"
+  "src/base/CMakeFiles/base.dir/DependInfo.cmake"
+  "src/base/tests/CMakeFiles/testLOG.dir/DependInfo.cmake"
+  "src/net/CMakeFiles/net.dir/DependInfo.cmake"
   )

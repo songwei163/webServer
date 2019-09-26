@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/s/CLionProjects/webServer/src/base 
+CXX_INCLUDES = -I/home/s/CLionProjects/webServer/src/base -I/home/s/CLionProjects/webServer/src/net 
 

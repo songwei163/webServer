@@ -5,12 +5,20 @@
 #ifndef WEBSERVER_SRC_NET_EVENTLOOP_H_
 #define WEBSERVER_SRC_NET_EVENTLOOP_H_
 
-#include "CurrentThread.h"
-#include "MutexLock.h"
+#include "Thread.h"
+#include "Epoll.h"
+#include "Logging.h"
 #include "Channel.h"
-
-#include <functional>
+#include "CurrentThread.h"
+#include "myUtil.h"
+#include <vector>
 #include <memory>
+#include <cassert>
+#include <functional>
+
+class Channel;
+class HttpData;
+class Epoll;
 
 class EventLoop {
  public:

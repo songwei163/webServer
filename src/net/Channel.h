@@ -5,11 +5,21 @@
 #ifndef WEBSERVER_SRC_NET_CHANNEL_H_
 #define WEBSERVER_SRC_NET_CHANNEL_H_
 
-#include "EventLoop.h"
-#include "HttpData.h"
-
-#include <functional>
+#include "Timer.h"
+#include <string>
+#include <unordered_map>
 #include <memory>
+#include <sys/epoll.h>
+#include <functional>
+#include <sys/epoll.h>
+
+//Channel类：Channel是Reactor结构中的“事件”，它自始至终都属于一个EventLoop，负责一个文件描述符的IO事件，
+// 在Channel类中保存这IO事件的类型以及对应的回调函数，当IO事件发生时，最终会调用到Channel类中的回调函数。
+// 因此，程序中所有带有读写时间的对象都会和一个Channel关联，包括loop中的eventfd，listenfd，HttpData等。
+
+class EventLoop;
+class HttpData;
+class Epoll;
 
 class Channel {
  private:

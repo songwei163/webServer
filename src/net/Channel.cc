@@ -3,6 +3,7 @@
 //
 
 #include "Channel.h"
+#include "EventLoop.h"
 
 Channel::Channel(EventLoop *loop) :
     loop_(loop),

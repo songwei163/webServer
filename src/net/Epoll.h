@@ -5,12 +5,17 @@
 #ifndef WEBSERVER_SRC_NET_EPOLL_H_
 #define WEBSERVER_SRC_NET_EPOLL_H_
 
-#include "EventLoop.h"
 #include "Channel.h"
-
-#include <sys/epoll.h>
+#include "HttpData.h"
+#include "Timer.h"
 #include <vector>
+#include <unordered_map>
+#include <sys/epoll.h>
 #include <memory>
+
+class EventLoop;
+class Channel;
+class HttpData;
 
 class Epoll {
  public:
