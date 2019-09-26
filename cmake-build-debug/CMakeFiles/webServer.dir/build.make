@@ -79,7 +79,6 @@ webServer_EXTERNAL_OBJECTS =
 
 webServer: CMakeFiles/webServer.dir/src/main.cc.o
 webServer: CMakeFiles/webServer.dir/build.make
-webServer: src/base/libbase.a
 webServer: src/net/libnet.a
 webServer: src/base/libbase.a
 webServer: CMakeFiles/webServer.dir/link.txt

@@ -10,7 +10,7 @@ set(SRC_NET_DIR ${SRC_NET_DIR} ${PROJECT_SOURCE_DIR}/net)
 include_directories(${SRC_BASE_DIR} ${SRC_NET_DIR})
 
 add_executable(webServer ${PROJECT_SOURCE_DIR}/main.cc)
-target_link_libraries(webServer base net)
+target_link_libraries(webServer net)
 
 add_subdirectory(${SRC_BASE_DIR})
 add_subdirectory(${SRC_NET_DIR})

@@ -6,6 +6,7 @@ set(LIB_BASE_SRC
         LogStream.cc
         CountDownLatch.cc
         Thread.cc
+        myUtil.cc
         )
 
 add_library(base ${LIB_BASE_SRC})
