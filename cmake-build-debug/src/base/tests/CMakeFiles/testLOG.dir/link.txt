@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/testLOG.dir/testLOG.cc.o  -o testLOG -lpthread -lrt ../libbase.a -lpthread -lrt 
